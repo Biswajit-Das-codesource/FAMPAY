@@ -1,0 +1,702 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page1{
+    height: 82vh;
+    width: 100%;
+    background-color: black;
+    /* background-attachment: fixed;
+    position: fixed; */
+
+}
+.whole-1{
+    height: 100vh;
+    width: 100%;
+    /* position: absolute;
+    background-attachment: fixed; */
+}
+.navbar{
+    height: 110px;
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   transition-duration: 0.2s;
+}
+.logo{
+    height: 90px;
+    width: 200px;
+    background-image: url('./imges/headerWhiteLogoIcon.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.nav-text{
+    height: 60px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.nav-text a{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.nav-text button{
+    height: 50px;
+    width: 130px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(224, 174, 11);
+    font-weight: bold;
+    font-size: 16px;
+}
+.page-1-main{
+    height: 300px;
+    width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+}
+.page-1-text-part{
+    height: 400px;
+    width: 55%;
+}
+.famx-logo{
+    height: 120px;
+    width: 300px;
+    background-image: url('./imges/FamXBanner.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.h3-line h3{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.page-1-text-part button{
+    height: 50px;
+    width: 200px;
+    background-color:rgb(241, 185, 0);
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-1-image-part{
+    height: 400px;
+    width: 40%;
+    background-image: url('./imges/Screenshot\ 2024-04-13\ 174208.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: p1 2s infinite;
+    animation-direction: alternate-reverse;
+    background-color: transparent;
+    animation-timing-function: ease-in-out;
+}
+@keyframes p1 {
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.page-2-ad{
+    height: 18vh;
+    width: 100%;
+    background-color: rgb(47, 45, 45);
+    position: absolute;
+    display: flex;
+    margin-top:100px;
+
+}
+.usertrust{
+    height: 15vh;
+    background-image: url('./imges/userTrustImage.png');
+    width: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.ad-2{
+    width: 950px;
+    height: 18vh;
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+    align-items: center;
+}
+.ad-2 h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight:lighter;
+    
+}
+.trio{
+    height: 5vh;
+    background-image: url('./imges/TrioLogo.png');
+    width: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.visa{
+    height: 4vh;
+    background-image: url('./imges/VisaLogo.png');
+    width: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.rupay{
+    height: 5vh;
+    background-image: url('./imges/RupayLogo.png');
+    width: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.upi{
+    height:7vh;
+    background-image: url('./imges/UPILogo.png');
+    width: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.page-2{
+    height: 100vh;
+    width: 100%;
+    background-color:#1f1f1f;
+    display: flex;
+}
+.part-2-image-part{
+    height: 70vh;
+    width: 50%;
+    background-image: url('./imges/SpendingAccountImage.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 70px
+}
+.page-2-text-part{
+    height: 50vh;
+    width: 49%;
+
+margin-top: 100px;
+}
+.page-2-text-part h2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.page-2-text-part i{
+    font-size: 20px;
+    color: rgb(241, 185, 0);
+    margin-right: 5px;
+}
+.page-2-text-part h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: rgb(132, 131, 131);
+    margin-top: 20px;
+}
+.page-3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.page-3-text-part{
+    height: 80vh;
+    width: 50%;
+}
+.page-3-text-part h2{
+    color: rgb(241, 185, 0);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.page-3-image-part{
+    height: 80vh;
+    width: 50%;
+    background-image: url('./imges/FamXTeens.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+   background-position: center;
+}
+.page-3-text-part h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: rgb(132, 131, 131);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-left: 10px;
+}
+.page-3-text-part i{
+    color: rgb(241, 185, 0);
+    margin-right: 5px;
+    margin-left: 50px;
+}
+.page-4{
+    height: 100vh;
+    width: 100%;
+    background-color:#1f1f1f;
+    display: flex;
+}
+.page-4-image-part{
+    height: 80vh;
+    width: 44%;
+    background-image: url('./imges/upiImage.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+   background-position: center;
+   animation: w1 1s infinite;
+   animation-direction: alternate-reverse;
+   animation-timing-function: ease-in-out;
+}
+@keyframes w1 {
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.page-4-text-part h2{
+    color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.page-4-text-part{
+    height: 90vh;
+    width: 55%;
+}
+.page-4-text-part i{
+    color: rgb(241, 185, 0);
+    margin-right: 5px;
+    margin-left: 50px;
+}
+.page-4-text-part h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: rgb(132, 131, 131);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-left: 10px;
+}
+.page-4-text-part h2{
+    color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.page-5{
+    height: 110vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.page-5-text-part{
+    height: 80vh;
+    width: 30%;
+}
+.page-5-image-part{
+    height: 90vh;
+    width: 70%;
+    margin-top: 20px;
+}
+.page-5-image-text h2{
+    color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.page-5-main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+.page-5-image-inner{
+    height: 80vh;
+    width: 50%;
+
+}
+.page-5-phone-image{
+    height: 80vh;
+    width: 50%;
+    background-image: url('./imges/burnFamcoinPhoneImage.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.page-5-image-inner{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.page-5-image-inner h3{
+    margin-right: 80px;
+}
+.cash{
+    height: 70px;
+    width:320px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin-top: 60px;
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cash p{
+    margin-top: 15px;
+}
+.cash-img{
+    height:40px;
+    width: 70px;
+    background-image: url('./imges/rewardIcon.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.enjoy-img{
+    height:40px;
+    width: 70px;
+    background-image: url('./imges/giveaway.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.win-img{
+    height:40px;
+    width: 70px;
+    background-image: url('./imges/challenges.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.enjoy{
+    height: 70px;
+    width:320px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.win{
+    height: 70px;
+    width:320px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.enjoy p{
+    margin-top: 15px;
+}
+.win p{
+    margin-top: 15px;
+}
+.page-6{
+    height: 300vh;
+    width: 100%;
+    background-color: #1f1f1f;
+    position: absolute;
+}
+.famxcard-section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+}
+.page-6-famcard-text{
+    height: 70vh;
+    width: 50%;
+    margin-top: 50px;
+}
+.page-6-famcard-text i{
+    color: rgb(241, 185, 0);
+    margin-right: 5px;
+    margin-left: 50px;
+}
+.page-6-fampay-image{
+    height: 70vh;
+    width: 50%;
+    background-image: url('./imges/FamXCard.png');
+    background-position: center;
+    background-size: cover;
+}
+.page-6-famcard-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: rgb(132, 131, 131);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-left: 30px;
+}
+.page-6-famcard-text img{
+    margin-left: 80px;
+}
+.membership-section{
+    height: 70vh;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.membership-section h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+.img1{
+    height: 257px;
+    width: 370px;
+    background-image: url('./imges/Classic.png');
+    background-position: center;
+    background-size: cover;
+
+}
+.img2{
+    height: 257px;
+    width: 370px;
+    background-image: url('./imges/Plus.png');
+    background-position: center;
+    background-size: cover;
+
+}
+.img3{
+    height: 257px;
+    width: 370px;
+    background-image: url('./imges/Ultra.png');
+    background-position: center;
+    background-size: cover;
+}
+.membership-img-part{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.support-section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+}
+.support-images{
+    height: 60vh;
+    width: 50%;
+}
+.support-text{
+    height: 60vh;
+    width: 50%;
+}
+.support-img1{
+    height: 400px;
+    width: 400px;
+    background-image: url('./imges/supportChatGif.gif');
+    background-size: cover;
+    background-position: center;
+    margin-left: 150px;
+}
+.support-text h3{
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+.support-text p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.page-7{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+}
+.page-7 h3{
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.page-7-section{
+        height: 60vh;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+    }
+.page-7-img-section{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.d1{
+    height: 300px;
+    width: 200px;
+    border: 2px solid pink;
+    background-color: antiquewhite;
+    background-image: url('./imges/p1.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.d2{
+    height: 350px;
+    width: 270px;
+    border: 2px solid pink;
+    background-color: white;
+    position: absolute;
+    background-image: url('./imges/p2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.d3{
+    height: 300px;
+    width: 200px;
+    border: 2px solid pink;  background-image: url('./imges/p3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.page-7-text-section h2{
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}
+.page-7-text-section p{
+    color: #b5afaf;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.page-8{
+    height: 80vh;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+.page-8 h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.banner-div{
+    height: 50vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.banner-div img{
+    margin-left: 40px;
+}
+.page-9{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(22, 20, 20);
+    display: flex;
+}
+.page-9-text-part h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 200px;
+    width: 50%;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.join{
+    height: 50px;
+    width: 200px;
+    margin-top: 430px;
+    background-color: rgb(241, 185, 0);
+    margin-left: 100px;
+    border: none;
+    border-radius: 40px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.page-9-img-part{
+    height: 500px;
+    width: 50%;
+    background-image: url('./imges/hiringImage.png');
+    background-position: center;
+    margin-left: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.page-10{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+}
+.page-10 img{
+    margin-left: 30%;
+}
+.page-10 h3{
+    font-size: 65px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}

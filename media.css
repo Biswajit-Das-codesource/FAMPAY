@@ -1,0 +1,49 @@
+@media screen and (max-width:600px){
+
+    body{
+       overflow-x: hidden;
+    }
+    .nav-text{
+        width: fit-content;
+        margin-right: 30px;
+    }
+    .nav-text a{
+        font-size: 13px;
+        gap: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .nav-text button{
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .logo{
+        margin-left:0px;
+        height: 100px;
+        width: 100px;
+    }
+    .famx-logo{
+        height: 60px;
+        width: 100px;
+    }
+    .page-1-text-part button{
+        width: 100px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .h3-line h3{
+        font-size: 40px;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .page-1-image-part{
+        min-width: 300px;
+    }
+    .whole-1{
+        height: 400px;
+    }
+
+}
